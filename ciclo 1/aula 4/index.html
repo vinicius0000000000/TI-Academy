@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*header{
+        border: 1px solid #000;
+        width: 80%;
+        height: 50px;
+    }
+    main{
+        width: 50%;
+        height: auto;
+        border: 1px solid #000;
+    }
+    article{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        width: 80%;
+        height: 50px;
+        border: 2px solid #000;
+    }
+    */
+    header, main, footer{
+        width: 80%;
+        border: 1px solid #000;
+        margin:0 auto;
+    }
+    main, article {
+        height: auto;
+    }
+
+    #ajuste-margem{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    article{
+        width: 100%;
+    }
+    header,footer{
+        height: 50px;
+    }
+
+    .seletor-paragrafo{
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+    }
+</style>
+<body>
+    <header>Aq está o header</header>
+    <main id = "ajuste-margem">
+        <article>
+            <p class = "seletor-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi in dolore facilis veritatis. Soluta officiis, maiores nisi impedit enim nesciunt ea quae ad eligendi ut corporis, vero a tenetur?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi in dolore facilis veritatis. Soluta officiis, maiores nisi impedit enim nesciunt ea quae ad eligendi ut corporis, vero a tenetur?
+            </p>
+            <p class = "seletor-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi in dolore facilis veritatis. Soluta officiis, maiores nisi impedit enim nesciunt ea quae ad eligendi ut corporis, vero a tenetur?
+            </p>
+        </article>
+    </main>
+    <footer>Aq está o footer</footer>
+</body>
+</html>

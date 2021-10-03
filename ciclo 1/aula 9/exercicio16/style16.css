@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+div#img{
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+    background: url(../img/Wallpaper\ Kyogre.jpg);
+    background-repeat: repeat-y;
+    background-size: 25%;
+}

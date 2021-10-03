@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.paleta{
+    color: rgb(214, 0, 0); /*título principal*/
+    color: rgb(38, 79, 133); /*fontes*/
+    color: rgb(0, 97, 0); /*botão*/
+    color: rgb(194, 193, 193); /*cor barra superior*/
+}
+
+:root{
+    font-size: 100%;
+    --cor_border_geral: #CFD8DC;
+    --cor_padrao_fonte: #434f55;
+    --font_padrao: 'Architects Daughter', cursive;
+    --font_cor_titulo: rgb(214, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--font_padrao);
+    color: var(--cor_padrao_fonte);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+a.go:hover{
+    background-color: var(--font_cor_titulo);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.icons-list{
+    margin-right: 2px;
+    font-size: 1.8rem;
+}
+
+header, main, footer{
+    width: 95%;
+    margin: auto;
+}
+
+header#top-header{
+    border-bottom: 1px solid var(--cor_border_geral);
+    height: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header#top-header h1, header#top-header nav{
+    width: 50%;
+}
+
+header#top-header h1{
+    align-items: center;
+    color: var(--font_cor_titulo);
+    font-family: 'Architects Daughter', cursive;
+    font-size: clamp(0.8rem, 4.5vh, 3rem);
+}
+
+nav#menu ul#list-menu li.item{
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+header#top-header nav#menu ul#list-menu{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+section#section-card{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section#section-card div.card{
+    width: 320px;
+    height: 400px;
+}
+
+section#section-card div.card figure.card-img-pizza{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+section#section-card div.card figure.card-img-pizza img.img-pizza{
+    width: 100%;
+    height: auto;
+}
+
+section div form.form-tamanho-pizza{
+    align-items: center;
+    justify-content: center;
+}
+
+section div form.form-tamanho-pizza label{
+    width: 30px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+h2.sub-titulo-pizza{
+    font-size: 1.2rem;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+footer{
+    height: 60px;
+    border-top: var(--cor_border_geral);
+    margin-top: 10px;
+    background-color: rgb(240, 227, 42);
+}
+
+footer h3.endereço{
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(36, 33, 33);
+    box-shadow: 2px black;
+    margin: 0 auto;
+    width: 100%;
+}
